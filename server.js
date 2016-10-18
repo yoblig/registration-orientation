@@ -5,6 +5,7 @@
 //
 var http = require('http');
 var path = require('path');
+var express = require("express");
 
 var async = require('async');
 var socketio = require('socket.io');
